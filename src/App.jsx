@@ -8,22 +8,23 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Education from './components/education/Education'
 
 const App = () => {
   return (
     <>
-
       <Header />
       <Nav />
       <About />
       <Experience />
+
+      <Education />   {/* 👈 YAHAN ADD KIYA */}
+
       <Services />
       <Portfolio />
       <Testimonials />
       <Contact />
       <Footer />
-
-
     </>
   )
 }
